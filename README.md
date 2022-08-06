@@ -17,7 +17,7 @@ The vocabulary CSV file should be in the following format:
 vocabulary, pinyin, part of speech, translation
 ```
 
-It's ok to leave the, part of speech, or translation blank. The tool will still work. However, it's advised to include at least the translation.
+It's ok to leave the part of speech or translation blank. The tool will still work. However, it's advised to include at least the translation.
 
 For example, vocabulary from Level 1 Part 1 Lesson 1 from Integrated Chinese third edition:
 ```
