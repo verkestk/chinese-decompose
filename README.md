@@ -7,7 +7,11 @@ clusters chinese characters by similarity
 go run main.go lesson1-1.csv database.tsv > clusters.md
 ```
 
-This command line tool takes one argument - a path to a CSV file containing vocabularly containing characters the user wishes to cluster. This CSV should be in the following format:
+This command line tool takes two arguments:
+- a path to a CSV file with vocabularly containing characters the user wishes to cluster
+- a decomposition database, like `database.tsv` in this repo
+
+The vocabulary CSV file should be in the following format:
 
 ```
 vocabulary, pinyin, part of speech, translation
